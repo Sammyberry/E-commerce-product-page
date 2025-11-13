@@ -4,28 +4,30 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+            rel="stylesheet">
         <title>Sneakers</title>
     </head>
     <body>
-        <header>
-            <!-- logo -->
-            <div>
+        <header class="container">
+            <div class="left-section">
+                <!-- logo -->
                 <img src="images/logo.svg" alt="logo">
+                <!-- navigation -->
+                <nav class="nav-links">
+                    <a href="#">Collections</a>
+                    <a href="#">Men</a>
+                    <a href="#">Women</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </nav>
             </div>
-            <!-- navigation -->
-            <nav>
-                <ul>
-                    <li><a href="#">Collections</a></li>
-                    <li><a href="#">Men</a></li>
-                    <li><a href="#">Women</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-
-            <div>
-                <img src="images/icon-cart.svg" alt="cart">
-                <img src="images/image-avatar.png" alt="avatar">
+            <!-- cart and profile icons -->
+            <div class="icons">
+                <img src="images/icon-cart.svg" alt="cart" class="icon" />
+                <img src="images/image-avatar.png" alt="profile"
+                    class="profile" />
             </div>
         </header>
 
@@ -66,7 +68,8 @@
                     <span>0</span>
                     <button>+</button>
                     <button class="cart-btn">
-                        <img src="images/icon-cart.svg" alt="cart" class="icon" />
+                        <img src="images/icon-cart.svg" alt="cart"
+                            class="icon" />
                         <span>Add to Cart</span>
                     </button>
                 </div>
